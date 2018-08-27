@@ -1,0 +1,7 @@
+
+#define MS_SIZE_POOLEDOBJ 0x04
+#define MS_SIZE_POOLEDARR 0x20
+#define MS_SIZE_VARNAME   0x8
+#define MS_SIZE_PROPNAME  0x8
+
+
