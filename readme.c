@@ -101,7 +101,7 @@ int main(){
     char buf[SIZE_SRC];
     size_t n = 0;
     
-    size_t r;
+    ssize_t r;
     while( 0 < (r = read(0, buf+n, SIZE_SRC-n)) ) n += r;
     buf[n] = '\0';
 
